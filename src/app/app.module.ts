@@ -12,12 +12,14 @@ import { HeaderComponent } from './component/header/header.component';
 import { MaterialModule } from './Material.Module';
 import { ProductsComponent } from './component/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductComponent } from './component/product/product.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
